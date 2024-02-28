@@ -1,0 +1,128 @@
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cartinsidegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.cartimg {
+  height: 100px;
+  width: 100px;
+}
+.cartleft {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  color: #265073;
+  padding: 2rem;
+  margin: 2rem;
+  height: 350px;
+  box-shadow: 5px 5px 5px 5px #00171a;
+}
+.pricedtails {
+  text-align: center;
+}
+.cartright {
+  padding: 2rem;
+  margin: 2rem;
+}
+.cartgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.padding {
+  padding: 1rem;
+}
+.Smallcart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px 5px #00171a;
+  border-radius: 5px;
+}
+.divsamllCart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Smallcartrightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.smallcartflex {
+  display: flex;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.smallrightside {
+  padding: 0.4rem;
+  letter-spacing: 2px;
+}
+
+.span {
+  color: green;
+}
+.title {
+  font-size: 16px;
+  text-align: center;
+}
+.remove {
+  color: red;
+}
+.description {
+  font-size: 8px;
+}
+.noitems {
+  text-align: center;
+  font-size: 16px;
+}
+@media (max-width: 991px) {
+  .cartleft {
+    height: 350px;
+    width: 290px;
+  }
+  .padding {
+    font-size: 8px;
+  }
+  .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .cartinsidegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+  .span {
+    font-size: 8px;
+  }
+  .spans {
+    font-size: 8px;
+  }
+  .cartimg {
+    height: 100px;
+    width: 50px;
+  }
+
+  .title {
+    font-size: 8px;
+    text-align: center;
+  }
+  .smallrightside {
+    font-size: 8px;
+  }
+  .cartright{
+    padding: 10px;
+  }
+ 
+}

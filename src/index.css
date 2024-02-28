@@ -1,0 +1,117 @@
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #102a42;
+  --bt-color: #fff;
+  --heading-color: #444444;
+  --btn-bg-color: #102a42;
+}
+
+[data-theme="dark"] {
+  --bg-color: #333333;
+  --text-color: #ffffff;
+  --heading-color: #dddddd;
+  --btn-bg-color: #102a42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+.footer {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background: var(--btn-bg-color);
+  color: var(--bt-color);
+}
+
+.button {
+  padding: 10px;
+  margin: 10px;
+  background: var(--btn-bg-color);
+  list-style: none;
+  text-decoration: none;
+  border-radius: 4px;
+  color: var(--bt-color);
+  text-align: center;
+}
+.textalign {
+  text-align: center;
+}
+.scroll {
+  border: 4px solid #102a42;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  color: #fff;
+}
+.Gotop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: sticky;
+  padding: 10px;
+}
+@media (max-width: 991px) {
+  .button {
+    padding: 10px;
+    margin: 10px;
+    background: var(--btn-bg-color);
+    list-style: none;
+    text-decoration: none;
+    border-radius: 4px;
+    color: var(--bt-color);
+    text-align: center;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    padding: 3px;
+    margin: 3px;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 4px;
+    color: var(--bt-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 8px;
+    background: var(--btn-bg-color);
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+  }
+  .pagnation {
+    display: flex;
+  }
+  .pagenationcenter{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
